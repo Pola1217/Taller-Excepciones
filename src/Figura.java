@@ -21,6 +21,7 @@ public class Figura {
 	public void pintar() {
 		app.rectMode(PConstants.CENTER);
 		app.fill(r, g, b);
+		app.noStroke();
 
 	}
 
